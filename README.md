@@ -22,13 +22,19 @@ Selama jumlah individu terinfeksi > 0:
 - Koreksi posisi dengan PBC
 - Update waktu terinfeksi untuk individu yang sudah terinfeksi.
 - Update status kesehatan individu - recovery
-- Jika waktu terinfeksi > waktu pemulihan, maka individu yang
-terinfeksi didefinisikan pulih
-- Update status imun individu (individu yang sudah pulih memiliki imun
-sehingga tidak akan terinfeksi lagi)
+- Jika waktu terinfeksi > waktu pemulihan, maka individu yang terinfeksi didefinisikan pulih
+- Update status imun individu (individu yang sudah pulih memiliki imun sehingga tidak akan terinfeksi lagi)
 - Update status kesehatan individu – infection
 - Hitung jarak individu sehat dengan individu terinfeksi
-- Jika jarak individu sehat dengan individu terinfeksi adalah nol,
-dan individu sehat tersebut belum memiliki imun, maka individu
-sehat tersebut akan terinfeksi
+- Jika jarak individu sehat dengan individu terinfeksi adalah nol, dan individu sehat tersebut belum memiliki imun, maka individu sehat tersebut akan terinfeksi
 - Hitung dan simpan jumlah individu terinfeksi
+
+Buatlah simulasi penyebaran penyakit/virus dengan menggunakan Random Walk 4
+Arah dengan menggunakan variabel-variabel berikut:
+1. Jumlah individu: 200
+2. Rasio individu terinfeksi: 5%
+3. Probabilitas individu bergerak: 80%
+4. Waktu pemulihan: 10 hari
+5.  Ukuran ruang simulasi: 20 x 20 unit
+6. Lakukan simulasi dan buatlah plot jumlah individu yang terinfeksi tiap harinya.
+7. Tentukan waktu pemulihan yang diperlukan oleh komunitas tersebut.
